@@ -38,7 +38,7 @@ def predict(car: CarInput):
     conn = pymysql.connect(
         host="localhost",
         user="root",
-        password="Sivamani@123",
+        password="",
         database="world"
     )
 
